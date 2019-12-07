@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Demo</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <h1 id="title">Matthew Broderick Appreciation Quiz</h1>
+  <h2>How well do you know your Matthew Broderick?</h2>
+
+  <div id="question">
+    <h3 id="prompt"></h3>
+    <div>
+      <input type="radio" name="answer" value="0">
+      <label id="a0"></label>
+    </div>
+    <div>
+      <input type="radio" name="answer" value="1">
+      <label id="a1"></label>
+    </div>
+    <div>
+      <input type="radio" name="answer" value="2">
+      <label id="a2"></label>
+    </div>
+    <div>
+      <input type="radio" name="answer" value="3">
+      <label id="a3"></label>
+    </div>
+    <button id="submit-answer">Choose Answer</button>
+    <p id="error-message"></p>
+  </div>
+  <div id="score">
+    <h2>YOUR SCORE!</h2>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

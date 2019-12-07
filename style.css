@@ -1,0 +1,14 @@
+#score {
+  display: none;
+}
+
+#score,
+#question {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+#error-message {
+  color: crimson;
+}
